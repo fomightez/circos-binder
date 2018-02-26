@@ -98,7 +98,7 @@ RUN cpanm Test::Most \
  XML::Twig XML::Writer \
  Math::Bezier \
  Math::Round \
- Readonly::Tiny \
+ #Readonly::Tiny \
  Readonly \
  Config::General \
  Params::Validate \
