@@ -97,8 +97,8 @@ RUN cpanm Test::Most \
  Params::Validate \
  Font::TTF::Font \
  Regexp::Common \
- Math::VecStat 
- Text::Format 
+ Math::VecStat \
+ Text::Format \
  SVG \
  Clone \ 
  List::MoreUtils
