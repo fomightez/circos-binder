@@ -89,7 +89,7 @@ RUN cpanm Test::Most \
  Graph \
  GraphViz \
  HTML::TableExtract \
- Convert::Binary::C \
+ #Convert::Binary::C \
  Math::Random \
  Error \
  Spreadsheet::ParseExcel \
