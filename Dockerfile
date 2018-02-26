@@ -17,7 +17,7 @@ RUN wget "http://circos.ca/distribution/circos-0.69-6.tgz" \
   && mv circos-0.69-6 circos
 
 # Update the repository sources list
-RUN apt-get update
+#RUN apt-get update
 
 # Install compiler and perl stuff
 RUN apt-get install --yes \
