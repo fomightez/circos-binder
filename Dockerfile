@@ -20,17 +20,13 @@ RUN wget "http://circos.ca/distribution/circos-0.69-6.tgz" \
 #RUN apt-get update
 
 # Install compiler and perl stuff
-RUN apt-get install --yes \
- build-essential \
- gcc-multilib \
- apt-utils \
+RUN apt-get install -y --no-install-recommends \
  perl \
- expat \
- libexpat-dev 
+ cpanminus
+
+
 
 # Install perl modules 
-RUN apt-get install -y cpanminus
-
 RUN cpanm CPAN::Meta \
  readline \ 
  Term::ReadKey \
