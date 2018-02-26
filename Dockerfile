@@ -23,7 +23,7 @@ RUN wget "http://circos.ca/distribution/circos-0.69-6.tgz" \
 
 # Install compiler and perl stuff
 RUN apt-get install -y --no-install-recommends \
- cpanminus
+    cpanminus
 
 
 
