@@ -11,7 +11,8 @@ ENV version 0.69-6
 
 #ADD http://circos.ca/distribution/circos-${version}.tgz /tmp/
 RUN wget "http://circos.ca/distribution/circos-0.69-6.tgz" \
-  && tar xzvf /tmp/circos-0.69-6.tgz \
+  && tar xzvf circos-0.69-6.tgz \
+  && rm -rf circos-0.69-6.tgz
   && mv circos-0.69-6 circos \
 
 
@@ -23,5 +24,5 @@ RUN     cd /opt/ \
         && cpanm -force GD Number::Format \
         && cpanm Statistics::Basic Set::IntSpan \
         && cpanm -force Try::Tiny \
-        && rm -rf /var/cache/apk/* /tmp/circos-${version}.tgz \
+        && rm -rf /var/cache/apk/*
         && apk del deps
