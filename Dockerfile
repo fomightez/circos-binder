@@ -24,5 +24,5 @@ RUN     cd /opt/ \
         && cpanm -force GD Number::Format \
         && cpanm Statistics::Basic Set::IntSpan \
         && cpanm -force Try::Tiny \
-        && rm -rf /var/cache/apk/*
+        && rm -rf /var/cache/apk/* \
         && apk del deps
