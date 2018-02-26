@@ -26,7 +26,7 @@ RUN wget "http://circos.ca/distribution/circos-0.69-6.tgz" \
 #RUN apt-get update
 
 # Install compiler and perl stuff
-RUN apt-get install -y --no-install-recommends \
+RUN apt-get update&& apt-get install -y --no-install-recommends \
     build-essential \
      gcc-multilib \
      apt-utils \
