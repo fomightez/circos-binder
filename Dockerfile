@@ -82,7 +82,7 @@ RUN apt-get install --yes \
 RUN cpanm Test::Most \
  Algorithm::Munkres \
  Array::Compare Clone \
- PostScript::TextBlock \
+ #PostScript::TextBlock \
  SVG::Graph \
  Set::Scalar \
  Sort::Naturally \
