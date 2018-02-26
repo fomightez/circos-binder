@@ -8,7 +8,7 @@ USER root
 # Trying to merge the Dockerfiles from: 
 # https://github.com/alexcoppe/bio-dockers/blob/75906f53d87399d80a9349148559ecb9511eba79/circos/Dockerfile
 #https://github.com/rocker-org/geospatial/blob/master/3.4.2/Dockerfile 
-# https://hub.docker.com/r/genomicpariscentre/bioperl/~/dockerfile/
+# https://hub.docker.com/r/genomicpariscentre/bioperl/~/dockerfile/ (found by searching `ubuntu cpan perl gd docker`)
 # rocker/binder:3.4.2
 # into something that works to install the perl modules Circos needs
 
