@@ -10,9 +10,9 @@ USER ${NB_USER}
 ENV version 0.69-6
 
 #ADD http://circos.ca/distribution/circos-${version}.tgz /tmp/
-RUN wget "http://circos.ca/distribution/circos-${version}.tgz" \
-  && tar xzvf /tmp/circos-${version}.tgz \
-  && mv circos-${version} circos \
+RUN wget "http://circos.ca/distribution/circos-0.69-6.tgz" \
+  && tar xzvf /tmp/circos-0.69-6.tgz \
+  && mv circos-0.69-6 circos \
 
 
 RUN     cd /opt/ \
