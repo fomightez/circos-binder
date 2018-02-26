@@ -1,11 +1,5 @@
 FROM rocker/binder:3.4.2
 
-# Copy repo into ${HOME}, make user own $HOME
-USER root
-COPY . ${HOME}
-RUN chown -R ${NB_USER} ${HOME}
-USER ${NB_USER}
-
 # Trying to add circos, and the important dependencies
 ENV version 0.69-6
 
@@ -106,6 +100,14 @@ RUN apt-get install -y \
  libxml-dom-xpath-perl \
  libxml-libxml-simple-perl \
  libxml-dom-perl
+
+
+# Copy repo into ${HOME}, make user own $HOME
+USER root
+COPY . ${HOME}
+RUN chown -R ${NB_USER} ${HOME}
+USER ${NB_USER}
+
 
 
 #RUN     cd /opt/ \
