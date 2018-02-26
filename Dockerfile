@@ -1,5 +1,9 @@
 FROM rocker/binder:3.4.2
 
+# Note `## If extending this image, remember to switch back to USER root to apt-get`
+# at the end of https://github.com/rocker-org/binder/blob/master/3.4.2/Dockerfile
+
+USER root
 
 # Trying to merge the Dockerfiles from: 
 # https://github.com/alexcoppe/bio-dockers/blob/75906f53d87399d80a9349148559ecb9511eba79/circos/Dockerfile
@@ -23,7 +27,13 @@ RUN wget "http://circos.ca/distribution/circos-0.69-6.tgz" \
 
 # Install compiler and perl stuff
 RUN apt-get install -y --no-install-recommends \
-    cpanminus
+    build-essential \
+     gcc-multilib \
+     apt-utils \
+     perl \
+     expat \
+     libexpat-dev \
+     cpanminus
 
 
 
