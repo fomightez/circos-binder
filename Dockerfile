@@ -33,7 +33,22 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
      perl \
      expat \
      libexpat-dev \
-     cpanminus
+     cpanminus \
+     libarchive-zip-perl \
+     libdbd-mysql \
+     libdbd-mysql-perl \
+     libdbd-pgsql \
+     libgd-gd2-perl \
+     libgd2-noxpm-dev \
+     libpixman-1-0 \
+     libpixman-1-dev \
+     graphviz \
+     libxml-parser-perl \
+     libsoap-lite-perl \
+     libxml-libxml-perl \
+     libxml-dom-xpath-perl \
+     libxml-libxml-simple-perl \
+     libxml-dom-perl
 
 
 
@@ -49,41 +64,11 @@ RUN cpanm CPAN::Meta \
  Data::Stag \
  Config::Simple \
  Statistics::Lite \
- Statistics::Descriptive 
-
-RUN apt-get install --yes \
- libarchive-zip-perl
-
-# Install related DB modules
-RUN apt-get install --yes \
- libdbd-mysql \
- libdbd-mysql-perl \
- libdbd-pgsql
-
-# Install GD
-RUN apt-get remove --yes libgd-gd2-perl
-
-RUN apt-get install --yes \
- libgd2-noxpm-dev
-
-RUN cpanm GD \
+ Statistics::Descriptive \
+ GD \
  GD::Graph \
- GD::Graph::smoothlines 
-
-
-# Install BioPerl dependancies, mostly from cpan
-RUN apt-get install --yes \
- libpixman-1-0 \
- libpixman-1-dev \
- graphviz \
- libxml-parser-perl \
- libsoap-lite-perl \
- libxml-libxml-perl \
- libxml-dom-xpath-perl \
- libxml-libxml-simple-perl \
- libxml-dom-perl
-
-RUN cpanm Test::Most \
+ GD::Graph::smoothlines \
+ Test::Most \
  Algorithm::Munkres \
  Array::Compare Clone \
  #PostScript::TextBlock \
@@ -113,7 +98,7 @@ RUN cpanm Test::Most \
  SVG \
  Clone \ 
  List::MoreUtils \
- -force GD Number::Format \
+ Number::Format \
  Statistics::Basic \
  Set::IntSpan \
  -force Try::Tiny
@@ -124,17 +109,5 @@ COPY . ${HOME}
 RUN chown -R ${NB_USER} ${HOME}
 USER ${NB_USER}
 
-
-
-#RUN     cd /opt/ \
-        #&& apk add --update --no-cache perl gd jpeg freetype \
-        #&& apk add --update --no-cache --virtual=deps make gd-dev jpeg-dev freetype-dev apkbuild-cpan gcc  musl-dev perl-dev \
-        #&& wget -O - http://cpanmin.us | perl - --self-upgrade  \
-        #&& cpanm Math::Bezier Math::Round Readonly::Tiny Readonly Config::General Params::Validate Font::TTF::Font Regexp::Common Math::VecStat Text::Format SVG Clone List::MoreUtils  \
-        #&& cpanm -force GD Number::Format \
-        #&& cpanm Statistics::Basic Set::IntSpan \
-        #&& cpanm -force Try::Tiny \
-        #&& rm -rf /var/cache/apk/* \
-        #&& apk del deps
 
 
