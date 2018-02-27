@@ -98,7 +98,7 @@ RUN cpanm CPAN::Meta \
  Number::Format \
  Statistics::Basic \
  Set::IntSpan \
- -force Try::Tiny
+ -f Try::Tiny
 
 # Copy repo into ${HOME}, make user own $HOME
 USER root
