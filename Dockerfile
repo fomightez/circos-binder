@@ -18,11 +18,9 @@ ENV version 0.69-6
 #ADD http://circos.ca/distribution/circos-${version}.tgz /tmp/
 RUN wget "http://circos.ca/distribution/circos-0.69-6.tgz" \
   && tar xzvf circos-0.69-6.tgz \
-  && rm -rf circos-0.69-6.tgz \
+  && rm -rf circos-0.69-6.tgz
 
 
-# Update the repository sources list
-#RUN apt-get update
 
 # Install compiler and perl stuff
 RUN apt-get update && apt-get install -y --no-install-recommends \
