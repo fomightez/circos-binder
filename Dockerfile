@@ -77,7 +77,11 @@ RUN apt-get install --yes \
  libpixman-1-dev \
  graphviz \
  libxml-parser-perl \
- libsoap-lite-perl 
+ libsoap-lite-perl \
+ libxml-libxml-perl \
+ libxml-dom-xpath-perl \
+ libxml-libxml-simple-perl \
+ libxml-dom-perl
 
 RUN cpanm Test::Most \
  Algorithm::Munkres \
@@ -109,15 +113,9 @@ RUN cpanm Test::Most \
  SVG \
  Clone \ 
  List::MoreUtils
-        #&& cpanm -force GD Number::Format \
-        #&& cpanm Statistics::Basic Set::IntSpan \
-
-RUN apt-get install -y \
- libxml-libxml-perl \
- libxml-dom-xpath-perl \
- libxml-libxml-simple-perl \
- libxml-dom-perl
-
+ -force GD Number::Format \
+ Statistics::Basic \
+ Set::IntSpan \
 
 # Copy repo into ${HOME}, make user own $HOME
 USER root
