@@ -19,8 +19,7 @@ ENV version 0.69-6
 RUN wget "http://circos.ca/distribution/circos-0.69-6.tgz" \
   && tar xzvf circos-0.69-6.tgz \
   && rm -rf circos-0.69-6.tgz \
-  && mkdir circos \
-  && mv circos-0.69-6 circos
+
 
 # Update the repository sources list
 #RUN apt-get update
