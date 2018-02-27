@@ -112,10 +112,11 @@ RUN cpanm Test::Most \
  Text::Format \
  SVG \
  Clone \ 
- List::MoreUtils
+ List::MoreUtils \
  -force GD Number::Format \
  Statistics::Basic \
  Set::IntSpan \
+ -force Try::Tiny
 
 # Copy repo into ${HOME}, make user own $HOME
 USER root
