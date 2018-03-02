@@ -1,0 +1,35 @@
+channels:
+  - conda-forge
+  - defaults
+  - bioconda
+dependencies:
+- perl
+- perl-carp
+- perl-clone
+- perl-config-general
+- perl-pathtools
+- perl-data-dumper 
+- perl-digest-md5
+- perl-file-temp
+- perl-findbin
+- perl-font-ttf
+- perl-gd
+- perl-getopt-long
+- perl-io-all
+- perl-list-moreutils
+- perl-list-util
+- perl-math-bezier
+- perl-math-round
+- perl-math-vecstat
+- perl-memoize
+- perl-posix
+- perl-params-validate
+- perl-pod-usage
+- perl-readonly
+- perl-regexp-common
+- perl-svg
+- perl-set-intspan
+- perl-statistics-basic
+- perl-text-balanced
+- perl-text-format
+- perl-time-hires
