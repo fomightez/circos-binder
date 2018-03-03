@@ -1,3 +1,4 @@
+name: circos-binderized
 channels:
   - conda-forge
   - defaults
