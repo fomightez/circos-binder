@@ -34,3 +34,5 @@ dependencies:
 - perl-text-balanced
 - perl-text-format
 - perl-time-hires
+- pip:
+   - bash_kernel
