@@ -23,9 +23,9 @@ Resources
 
 Attribution
 ----------
-This repository was set up to take advantage of the Binder system to offer a resource to run [Martin Krzywinski's amazing Circos software](http://circos.ca/) without the user needing to download, install, or maintain any software. See [here](https://mybinder.readthedocs.io/en/latest/) for documentation about Binder as deployed at [MyBinder.org](https://mybinder.org/).
+This repository was set up to take advantage of the Binder system to offer a resource to run [Martin Krzywinski's Circos software](http://circos.ca/) without the user needing to download, install, or maintain any software. See [here](https://mybinder.readthedocs.io/en/latest/) for documentation about Binder as deployed at [MyBinder.org](https://mybinder.org/).
 
 **Remember, if you are using Circos, Martin requests you please cite**:  
-[Krzywinski, M. et al. Circos: an Information Aesthetic for Comparative Genomics. Genome Res (2009) 19:1639-1645](http://genome.cshlp.org/content/early/2009/06/15/gr.092759.109.abstract).  
+[Krzywinski, M. et al. Circos: an Information Aesthetic for Comparative Genomics. Genome Res (2009) 19:1639-1645.](http://genome.cshlp.org/content/early/2009/06/15/gr.092759.109.abstract)
 Download the citation [here](https://genome.cshlp.org/citmgr?gca=genome;gr.092759.109v1).
 
