@@ -3,7 +3,7 @@
 [![Binder](http://mybinder.org/badge.svg)](http://beta.mybinder.org/v2/gh/fomightez/circos-binderized/master?filepath=index.ipynb)
 
 Run Circos software in a Jupyter envrioment served to a broswer via the Binder system (MyBinder.org.).  
-Launch the Binder by clicking the `Launch Binder` badge above, or click [here](http://mybinder.org/badge.svg)](http://beta.mybinder.org/v2/gh/fomightez/circos-binderized/master?filepath=index.ipynb), and follow the steps to run Circos.
+Launch the Binder by clicking the `Launch Binder` badge above, or click [here](http://beta.mybinder.org/v2/gh/fomightez/circos-binderized/master?filepath=index.ipynb), and follow the steps to run Circos.
 
 Resources
 --------
