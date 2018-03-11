@@ -2,19 +2,20 @@
 
 [![Binder](http://mybinder.org/badge.svg)](http://beta.mybinder.org/v2/gh/fomightez/circos-binderized/master?filepath=index.ipynb)
 
-*tl;dr*: Click the `Launch Binder` badge above to run Circos inside your browser.
+*tl;dr:*  
+Click the `Launch Binder` badge above to run Circos inside your browser.
 
 ------
 
 Circos is a software package for visualizing data and information that was created by Martin Krzywinski. 
 
-This repository enables running Circos software in a Jupyter envrioment served to a broswer via the Binder system deployed at [MyBinder.org](https://mybinder.org/). 
+This repository enables running Circos software in a Jupyter notebook envrionment served to your broswer via the Binder system deployed at [MyBinder.org](https://mybinder.org/). 
 
-Launch the Binder by clicking the `Launch Binder` badge above, or click [here](http://beta.mybinder.org/v2/gh/fomightez/circos-binderized/master?filepath=index.ipynb), and follow the steps to run Circos Circos is a software package for visualizing data and information.
+Launch and run the notebooks via Binder by clicking the `Launch Binder` badge above, or click [here](http://beta.mybinder.org/v2/gh/fomightez/circos-binderized/master?filepath=index.ipynb). An active notebook environment just for you will be spun up and then you can follow the steps therein to actively run Circos in the launched notebooks.
 
 Resources
 --------
-* [Getting Started with Circos](http://circos.ca/support/getting_started/) from [the official Circos source](http://circos.ca/)
+* See ['Getting Started with Circos'](http://circos.ca/support/getting_started/) from [the official Circos source and documentation site](http://circos.ca/).
 
 * [A nice introduction to Circos, entitled 'Making genomic data come alive with circos plots'](https://medium.com/@Marianattestad/a-treatise-on-making-circos-plots-from-genomic-data-7ff496849e0)
 
