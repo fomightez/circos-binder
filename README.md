@@ -21,6 +21,8 @@ Resources
 
 * [Introduction to Circos with details/examples and terminology explanations for genomics use](http://barc.wi.mit.edu/education/hot_topics/Circos/Circos.pdf)
 
+* [My collection of circos-related utility scripts (Python)](https://github.com/fomightez/sequencework/tree/master/circos-utilities)
+
 Attribution
 ----------
 This repository was set up to take advantage of the Binder system to offer a resource to run [Martin Krzywinski's Circos software](http://circos.ca/) without the user needing to download, install, or maintain any software. See [here](https://mybinder.readthedocs.io/en/latest/) for documentation about Binder as deployed at [MyBinder.org](https://mybinder.org/).
