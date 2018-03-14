@@ -21,7 +21,7 @@ Resources
 
 * [Introduction to Circos with details/examples and terminology explanations for genomics use](http://barc.wi.mit.edu/education/hot_topics/Circos/Circos.pdf)
 
-* [My collection of circos-related utility scripts (Python)](https://github.com/fomightez/sequencework/tree/master/circos-utilities)
+* [My collection of Circos-related utility scripts (Python)](https://github.com/fomightez/sequencework/tree/master/circos-utilities)
 
 Attribution
 ----------
