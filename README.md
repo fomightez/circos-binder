@@ -11,7 +11,7 @@ Circos is a software package for visualizing data and information that was creat
 
 This repository enables running Circos software in a Jupyter notebook envrionment served to your broswer via the Binder system deployed at [MyBinder.org](https://mybinder.org/). 
 
-Launch and run the notebooks via Binder by clicking the `Launch Binder` badge above, or click [here](http://beta.mybinder.org/v2/gh/fomightez/circos-binderized/master?filepath=index.ipynb). An active notebook session will be spun up just for you in a process that generally only takes a few seconds. Subsequently, you can follow the steps detailed in the active notebooks to run Circos.
+Launch and run the notebooks via Binder by clicking the [![Binder](http://mybinder.org/badge.svg)](http://beta.mybinder.org/v2/gh/fomightez/circos-binderized/master?filepath=index.ipynb) badge anywhere on this page. An active notebook session will be spun up just for you in a process that generally only takes a few seconds. Subsequently, you can follow the steps detailed in the active notebooks to run Circos.
 
 Resources
 --------
