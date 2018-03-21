@@ -3,7 +3,7 @@
 [![Binder](http://mybinder.org/badge.svg)](http://beta.mybinder.org/v2/gh/fomightez/circos-binderized/master?filepath=index.ipynb)
 
 *tl;dr:*  
-Click the `Launch Binder` badge above to run Circos inside your browser.
+Click any [![Binder](http://mybinder.org/badge.svg)](http://beta.mybinder.org/v2/gh/fomightez/circos-binderized/master?filepath=index.ipynb) badge on this page to run Circos inside your browser.
 
 ------
 
