@@ -64,7 +64,7 @@ RUN curl -OL http://circos.ca/distribution/circos-0.69-6.tgz && \
    rm -f circos-0.69-6.tgz
 
 #Get Circos tutorial files (see http://circos.ca/distribution/circos-tutorials-0.67.tgz)
-RUN curl -OL http://circos.ca/distribution/circos-0.69-6.tgz && \
+RUN curl -OL http://circos.ca/distribution/circos-tutorials-0.67.tgz && \
    tar -xzf circos-tutorials-0.67.tgz && \
    rm -f circos-tutorials-0.67.tgz
 
