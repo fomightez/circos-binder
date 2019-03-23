@@ -48,7 +48,7 @@ RUN conda install -y perl=5.22.0.1 \
     perl-statistics-basic=1.6611 \
     perl-text-balanced=2.03 \
     perl-text-format=0.59 \
-    perl-time-hires=1.9728 \
+    perl-time-hires=1.9728
 
 
 # Install bash kernel and Biopython
