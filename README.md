@@ -43,7 +43,7 @@ The VICE environment supports large-scale analyses. Users can upload and downloa
 
 [![Vice](docs/vice_badge.png)](https://de.cyverse.org/de/?type=apps&app-id=??????????????????????&system-id=de)
 
-[Follow these step to run Jupyter Lab on VICE](docs/vice_instructions.md) 
+[Follow these steps to run Jupyter Lab on VICE](docs/vice_instructions.md) 
 
 
 Location of tutorial notebooks
