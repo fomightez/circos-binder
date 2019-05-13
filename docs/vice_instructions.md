@@ -1,6 +1,6 @@
 # How to Run Circos in Jupyter on CyVerse/VICE
 
-After clicking the [![Vice](vice_badge.png)](https://de.cyverse.org/de/?type=apps&app-id=??????????????????????????&system-id=de) button, follow the steps below to launch JupyterLab, run your analyses, and save your results.
+After clicking the [![Vice](vice_badge.png)](https://de.cyverse.org/de/?type=apps&app-id=4cc9f054-5343-11e9-8b4d-008cfa5ae621&system-id=de) button, follow the steps below to launch JupyterLab, run your analyses, and save your results.
 
 See also: [VICE Starting JupyterLab App](https://cyverse-visual-interactive-computing-environment.readthedocs-hosted.com/en/latest/user_guide/quick-jupyter.html) | 
 [VICE Webinar](https://www.youtube.com/watch?v=KpBC0nScfL0) | 
