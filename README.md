@@ -50,7 +50,7 @@ The VICE environment supports large-scale analyses. Users can upload and downloa
 Location of tutorial notebooks
 ------------------------------
 
-If you are interested in the accompanying tutorial-like notebooks that you see in the sessions launched from here, the code for them is available outside of the active Jupyter session at [this repostiory here](https://github.com/fomightez/cbr-accompmatz). In an effort to streamline development, they have been moved there. Importantly, that allows the version of the Circos software to remain 'locked' in the Cyverse app, yet allow me to improve the accompanying material. This also has the effect that the MyBinder-served core image doesn't need building often.
+If you are interested in the accompanying tutorial-like notebooks that you see in the sessions launched from here, the code for them is available outside of the active Jupyter session at [this repository here](https://github.com/fomightez/cbr-accompmatz). In an effort to streamline development, they have been moved there. Importantly, that allows the version of the Circos software to remain 'locked' in the Cyverse app, yet allow me to improve the accompanying material. This also has the effect that the MyBinder-served core image doesn't need building often.
 
 ----
 
