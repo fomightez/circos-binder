@@ -62,21 +62,16 @@ WORKDIR /home/jovyan
 RUN curl -OL http://circos.ca/distribution/circos-0.69-6.tgz && \
    tar -xzf circos-0.69-6.tgz && \
    rm -f circos-0.69-6.tgz
-
 #Get Circos tutorial files (see http://circos.ca/distribution/circos-tutorials-0.67.tgz)
 RUN curl -OL http://circos.ca/distribution/circos-tutorials-0.67.tgz && \
    tar -xzf circos-tutorials-0.67.tgz && \
    rm -f circos-tutorials-0.67.tgz && \
-
 #Get Circos utility tools files
    curl -OL http://circos.ca/distribution/circos-tools-0.23.tgz && \
    tar -xzf circos-tools-0.23.tgz && \
    rm -f circos-tools-0.23.tgz && \
-
 # clone circos-binder to get the notebooks
    git clone https://github.com/fomightez/circos-binder && \
-
-
 # Move circos software folder to same place it is in the MyBinder instance so included 
 # notebooks work both on MyBinder launches and in Cyverse VICE launches
    mv circos-0.69-6 circos-binder/. && \
