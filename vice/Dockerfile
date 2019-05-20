@@ -71,16 +71,16 @@ RUN curl -OL http://circos.ca/distribution/circos-tutorials-0.67.tgz && \
 #Get Circos utility tools files
    curl -OL http://circos.ca/distribution/circos-tools-0.23.tgz && \
    tar -xzf circos-tools-0.23.tgz && \
-   rm -f circos-tools-0.23.tgz
+   rm -f circos-tools-0.23.tgz && \
 
 # clone circos-binder to get the notebooks
-RUN git clone https://github.com/fomightez/circos-binder
+   git clone https://github.com/fomightez/circos-binder && \
 
 
 # Move circos software folder to same place it is in the MyBinder instance so included 
 # notebooks work both on MyBinder launches and in Cyverse VICE launches
-RUN mv circos-0.69-6 circos-binder/.
-RUN mv circos-tutorials-0.67 circos-binder/.
+   mv circos-0.69-6 circos-binder/. && \
+   mv circos-tutorials-0.67 circos-binder/.
 
 COPY entry.sh /bin
 RUN mkdir /home/jovyan/.irods
