@@ -12,3 +12,8 @@ rm circos-0.69-6.tgz
 curl -O http://circos.ca/distribution/circos-tutorials-0.67.tgz
 tar xvfz circos-tutorials-0.67.tgz
 rm circos-tutorials-0.67.tgz
+
+# Get Circos utility tools files
+curl -O http://circos.ca/distribution/circos-tools-0.23.tgz
+tar xvfz circos-tools-0.23.tgz
+rm circos-tools-0.23.tgz
