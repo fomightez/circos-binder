@@ -75,7 +75,8 @@ RUN curl -OL http://circos.ca/distribution/circos-tutorials-0.67.tgz && \
 # Move circos software folder to same place it is in the MyBinder instance so included 
 # notebooks work both on MyBinder launches and in Cyverse VICE launches
    mv circos-0.69-6 circos-binder/. && \
-   mv circos-tutorials-0.67 circos-binder/.
+   mv circos-tutorials-0.67 circos-binder/. && \
+   mv circos-tools-0.23 circos-binder/.
 
 COPY entry.sh /bin
 RUN mkdir /home/jovyan/.irods
