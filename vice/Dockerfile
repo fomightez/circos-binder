@@ -66,10 +66,10 @@ RUN curl -OL http://circos.ca/distribution/circos-0.69-6.tgz && \
 #Get Circos tutorial files (see http://circos.ca/distribution/circos-tutorials-0.67.tgz)
 RUN curl -OL http://circos.ca/distribution/circos-tutorials-0.67.tgz && \
    tar -xzf circos-tutorials-0.67.tgz && \
-   rm -f circos-tutorials-0.67.tgz
+   rm -f circos-tutorials-0.67.tgz && \
 
 #Get Circos utility tools files
-RUN curl -OL http://circos.ca/distribution/circos-tools-0.23.tgz && \
+   curl -OL http://circos.ca/distribution/circos-tools-0.23.tgz && \
    tar -xzf circos-tools-0.23.tgz && \
    rm -f circos-tools-0.23.tgz
 
