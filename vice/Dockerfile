@@ -68,6 +68,10 @@ RUN curl -OL http://circos.ca/distribution/circos-tutorials-0.67.tgz && \
    tar -xzf circos-tutorials-0.67.tgz && \
    rm -f circos-tutorials-0.67.tgz
 
+#Get Circos utility tools files
+RUN curl -OL http://circos.ca/distribution/circos-tools-0.23.tgz && \
+   tar -xzf circos-tools-0.23.tgz && \
+   rm -f circos-tools-0.23.tgz
 
 # clone circos-binder to get the notebooks
 RUN git clone https://github.com/fomightez/circos-binder

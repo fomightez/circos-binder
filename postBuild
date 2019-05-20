@@ -4,16 +4,16 @@
 python -m bash_kernel.install
 
 # Get Circos and unpack
-curl -O http://circos.ca/distribution/circos-0.69-6.tgz
+curl -OL http://circos.ca/distribution/circos-0.69-6.tgz
 tar xvfz circos-0.69-6.tgz
 rm circos-0.69-6.tgz
 
 # Get Circos tutorial files
-curl -O http://circos.ca/distribution/circos-tutorials-0.67.tgz
+curl -OL http://circos.ca/distribution/circos-tutorials-0.67.tgz
 tar xvfz circos-tutorials-0.67.tgz
 rm circos-tutorials-0.67.tgz
 
 # Get Circos utility tools files
-curl -O http://circos.ca/distribution/circos-tools-0.23.tgz
+curl -OL http://circos.ca/distribution/circos-tools-0.23.tgz
 tar xvfz circos-tools-0.23.tgz
 rm circos-tools-0.23.tgz
