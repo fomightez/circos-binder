@@ -82,7 +82,3 @@ RUN mkdir /home/jovyan/.irods
 
 WORKDIR /home/jovyan/circos-binder/
 ENTRYPOINT ["bash", "/bin/entry.sh"]
-
-
-
-
