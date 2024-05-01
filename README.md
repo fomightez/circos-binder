@@ -25,6 +25,9 @@ Resources
 
 * [Introduction to Circos with details/examples and terminology explanations for genomics use](http://barc.wi.mit.edu/education/hot_topics/Circos/Circos.pdf)
 
+* [Chen et al., 2022. 'A painless way to customize Circos plot: From data preparation to visualization using TBtools
+' iMeta PROTOCOL. https://doi.org/10.1002/imt2.35 ](https://onlinelibrary.wiley.com/doi/10.1002/imt2.35) 
+
 * [My collection of Circos-related utility scripts (Python)](https://github.com/fomightez/sequencework/tree/master/circos-utilities)
   - [`UCSC_chrom_sizes_2_circos_karyotype.py`](https://github.com/fomightez/sequencework/blob/master/circos-utilities/UCSC_chrom_sizes_2_circos_karyotype.py) *UCSC chrom.sizes files --> karyotype.tab file for use in Circos*
 
